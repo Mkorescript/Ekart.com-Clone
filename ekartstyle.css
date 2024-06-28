@@ -212,3 +212,69 @@ body{
         color: white;
         margin-bottom: 5px;
     }
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .htext1, .htext2, #herotext2 {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .hero1, .hero2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .product-text {
+        font-size: 25px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .nav1 {
+        margin-top: 10px;
+        font-size: small;
+    }
+
+    #nav3 {
+        margin-top: 10px;
+    }
+
+    .shop-section1, .shop-section2, .shop-section3 {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .htext1, .htext2, #herotext2 {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .product-text {
+        font-size: 20px;
+    }
+
+    .sub-text1 {
+        font-size: 20px;
+    }
+
+    .sub-text2 {
+        font-size: 18px;
+    }
+
+    .sub-text3 {
+        font-size: 18px;
+    }
+}
